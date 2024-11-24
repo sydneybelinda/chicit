@@ -3686,6 +3686,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantinex/dev-icons@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@mantinex/dev-icons@npm:1.0.2"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/21c69b832e6215ca79a9ada4bc21558fe197cefb65604c4bbc54bf775c81696ec62a44978d3c5062b78a31f7ceafa1d3f18413aac4d6a12deb761b896c6e88fa
+  languageName: node
+  linkType: hard
+
+"@mantinex/mantine-logo@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@mantinex/mantine-logo@npm:1.0.1"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/d1628195eaf6681c4366c0154ee2e3adf1b863432ab15e6285a3f33ffbb33a17ec0b5a90a9ced2429cbf2841d4de11f72320ca3d37578d6908a5b9f194fea2d3
+  languageName: node
+  linkType: hard
+
 "@ndelangen/get-tarball@npm:^3.0.7":
   version: 3.0.9
   resolution: "@ndelangen/get-tarball@npm:3.0.9"
@@ -12128,6 +12152,8 @@ __metadata:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
     "@mantine/core": "npm:7.14.1"
     "@mantine/hooks": "npm:7.14.1"
+    "@mantinex/dev-icons": "npm:^1.0.2"
+    "@mantinex/mantine-logo": "npm:^1.0.1"
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@storybook/nextjs": "npm:^8.1.10"
     "@storybook/react": "npm:^8.1.10"
