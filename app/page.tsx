@@ -22,7 +22,7 @@ export default function HomePage() {
 <HeaderMenu />
 <Hero />
 
-      {/* <Features /> */}
+      <Features />
       <Who />
       <Choose />
       <WorkTogether />
