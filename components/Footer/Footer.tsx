@@ -3,7 +3,8 @@
 import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
 import { ActionIcon, Container, Group, Text } from '@mantine/core';
 import Logo from '../Logo';
-import classes from './Footer.module.css';import { ServiceLinks } from '../ServiceLinks';
+import classes from './footer.module.css';
+import { ServiceLinks } from '../ServiceLinks';
 import { TechLinks } from '../TechLinks';
 
 
