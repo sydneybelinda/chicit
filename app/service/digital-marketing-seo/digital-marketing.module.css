@@ -1,0 +1,51 @@
+.pageWrap {
+        background: #e7eaf3;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.description {text-align: left;}
+
+.title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    margin-bottom: var(--mantine-spacing-xs);
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+  
+    @media (max-width: $mantine-breakpoint-xs) {
+      font-size: 28px;
+      text-align: left;
+    }
+  }
+
+  .content {
+    max-width: 580px;
+    margin-right: calc(var(--mantine-spacing-xl) * 3);
+  
+    @media (max-width: $mantine-breakpoint-md) {
+      max-width: 100%;
+      margin-right: 0;
+    }
+  }
+
+    .image {
+    width: 376px;
+    height: 356px;
+  
+    @media (max-width: $mantine-breakpoint-md) {
+      display: none;
+    }
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+
+  }

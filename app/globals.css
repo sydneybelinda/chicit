@@ -33,3 +33,9 @@ header {z-index: 2}
   .highlight {
     color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
   }
+
+
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
