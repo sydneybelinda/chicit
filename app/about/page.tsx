@@ -1,11 +1,12 @@
 
 import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
 import { Footer } from '@/components/Footer/Footer';
-import { Grid, Title, Text, Button, SimpleGrid } from '@mantine/core';
+import { Grid, Title, Text, Button, SimpleGrid, Image } from '@mantine/core';
 import { Container } from '@mantine/core';
 import GridLayout from '@/components/GridLayout/GridLayout';
 import { SideBar } from '@/components/SideBar/SideBar';
 import { AbuutHero } from '@/components/AboutHero/AboutHero';
+import image from './bel.png';
 
 import classes from "./about.module.css"
 
@@ -38,7 +39,9 @@ async function left () {
   return ( <div className={classes.page}>
 
       <div className="markdown prose w-full break-words dark:prose-invert light">
-        
+      <div className={classes.inner}>
+        <div className={classes.content}>
+      <h2>Welcome to <span className='highlight'>Chic IT</span></h2>     
   <p>
     Welcome to Chic IT, a female-owned and operated IT professional services
     company dedicated to providing exceptional technology solutions to
@@ -58,6 +61,10 @@ async function left () {
     diversity, supporting women in tech, and delivering top-tier services with a
     personal touch.
   </p>
+  </div>
+  
+  <Image src={image.src} className={classes.image} />
+  </div>
   <p>
     Our team consists of highly skilled and experienced professionals who
     specialize in web design, desktop support, server management, digital
@@ -224,15 +231,6 @@ async function left () {
         </Text>
       
 
-      <SimpleGrid
-        mt={60}
-        cols={{ base: 1, sm: 2, md: 3 }}
-        spacing={{ base: 'xl', md: 50 }}
-        verticalSpacing={{ base: 'xl', md: 50 }}
-      >
-    
-      </SimpleGrid>
-
   </div>)
 
 }
@@ -252,11 +250,9 @@ export default function AboutPage() {
       />
       <div className={classes.pageWrap}>
       <Container className='wrapper'>
-<GridLayout
-left={leftView}
-right="Blah"
 
-/>
+{leftView}
+
 </Container>
 </div>
       <Footer />

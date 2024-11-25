@@ -24,3 +24,28 @@
       text-align: left;
     }
   }
+
+  .content {
+    max-width: 580px;
+    margin-right: calc(var(--mantine-spacing-xl) * 3);
+  
+    @media (max-width: $mantine-breakpoint-md) {
+      max-width: 100%;
+      margin-right: 0;
+    }
+  }
+
+    .image {
+    width: 376px;
+    height: 356px;
+  
+    @media (max-width: $mantine-breakpoint-md) {
+      display: none;
+    }
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+
+  }
