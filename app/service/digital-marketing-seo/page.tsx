@@ -11,7 +11,7 @@ import classes from "./digital-marketing.module.css"
 
 export const metadata = {
   title: 'Chic IT - Digital Marketing and Search Engine Optimisation',
-  description: 'committed to providing top-tier Windows and Linux server management solutions that keep your business running smoothly and efficiently',
+  description: 'We specialize in transforming your online presence and driving growth for your business with effective Digital Marketing and Search Engine Optimisation',
 };
 
 async function title() {
