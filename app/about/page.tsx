@@ -225,11 +225,6 @@ async function left () {
 
 
     
-        <Text size="sm" className={classes.description}>
-          Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-          hunger drives it to try biting a Steel-type Pokémon.
-        </Text>
-      
 
   </div>)
 

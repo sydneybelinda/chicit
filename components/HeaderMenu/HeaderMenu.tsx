@@ -37,7 +37,7 @@ export function HeaderMenu() {
     // const shouldBeVisible = scroll <= 40;
     // const shouldBeVisible = scrol
     
-    console.log(countScoll)
+
 
 if (scroll >= countScoll){
   
@@ -110,7 +110,7 @@ if (scroll >= countScoll){
   
       <Container size="md">
         <div className={classes.inner}>
-          <Logo />
+          <Link href="/"><Logo /></Link>
           <Group gap={5} visibleFrom="sm">
             {items}
           </Group>
