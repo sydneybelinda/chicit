@@ -1,3 +1,35 @@
 header {z-index: 2}
 .sticky { position: fixed; left: 0; right:0; top:0}
 
+
+
+.wrapper {
+    padding-top: calc(var(--mantine-spacing-xl) * 2);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-weight: 900;
+    margin-bottom: var(--mantine-spacing-md);
+    text-align: center;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      font-size: 28px;
+      text-align: left;
+    }
+  }
+  
+.description {
+    text-align: center;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      text-align: left;
+    }
+  }
+
+  .highlight {
+    color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+  }
