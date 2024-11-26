@@ -24,7 +24,7 @@ async function subtitle() {
   "use server"
 
   return (
-    <p>Empowering the Adult Industry with Professional IT Solutions</p>
+    <span>Empowering the Adult Industry with Professional IT Solutions</span>
   )
 }
 
@@ -47,8 +47,8 @@ async function left() {
     <strong>IT professional services</strong> for{" "}
     <strong>escort agencies</strong> and{" "}
     <strong>private escort websites</strong>, helping our clients succeed in a
-    competitive digital landscape. Whether you’re starting from scratch or
-    looking to enhance your existing online platform, we’ve got you covered.
+    competitive digital landscape. Whether you&apos;re starting from scratch or
+    looking to enhance your existing online platform, we&apos;ve got you covered.
   </p>
   <p>
     Our primary mission is to provide{" "}
@@ -97,7 +97,7 @@ async function left() {
     In the adult services industry,{" "}
     <strong>privacy and security are paramount</strong>. At Chic IT, we
     implement the latest encryption techniques and secure payment systems to
-    safeguard both your clients’ information and your agency’s data. We ensure
+    safeguard both your clients information and your agency&apos;s data. We ensure
     that your website complies with legal and regulatory requirements while
     offering robust protection against data breaches. We take pride in ensuring
     your platform offers a secure environment where clients and escorts can
@@ -119,12 +119,12 @@ async function left() {
   <p>
     <strong>Ongoing Support and Maintenance</strong>
     <br />
-    Our services don’t end once your website goes live. Chic IT offers ongoing{" "}
+    Our services don&apos;t end once your website goes live. Chic IT offers ongoing{" "}
     <strong>website maintenance</strong>, ensuring that your platform stays
     up-to-date, functional, and secure. We provide regular updates, security
     patches, and performance optimizations to keep your site running smoothly.
     Additionally, our <strong>24/7 customer support</strong> means that if you
-    ever need help, we’re just a call or email away. Your peace of mind is our
+    ever need help, we&apos;re just a call or email away. Your peace of mind is our
     priority.
   </p>
   <hr />
@@ -132,7 +132,7 @@ async function left() {
   <p>
     <strong>1. Custom Website Design &amp; Development</strong>
     <br />
-    We create <strong>custom websites</strong> that align with your agency’s
+    We create <strong>custom websites</strong> that align with your agency&apos;s
     values and goals. From layout and design to functionality and content
     management, we ensure your website is an accurate representation of your
     business.
@@ -155,7 +155,7 @@ async function left() {
   <p>
     <strong>4. SEO &amp; Digital Marketing</strong>
     <br />
-    We enhance your site’s discoverability with <strong>SEO</strong> and offer{" "}
+    We enhance your site&apos;s discoverability with <strong>SEO</strong> and offer{" "}
     <strong>digital marketing</strong> strategies, including{" "}
     <strong>social media management</strong> and{" "}
     <strong>email marketing</strong>, to help you attract and retain clients.
@@ -170,7 +170,7 @@ async function left() {
   <p>
     <strong>6. Website Analytics and Reporting</strong>
     <br />
-    Gain insights into your website’s performance with our detailed analytics
+    Gain insights into your website&apos;s performance with our detailed analytics
     and reporting. We monitor traffic, conversions, and user behavior, helping
     you optimize your website and marketing efforts.
   </p>
@@ -192,11 +192,11 @@ async function left() {
     standards of professionalism and integrity.
   </p>
   <hr />
-  <h4>Let’s Work Together</h4>
+  <h4>Let&apos;s Work Together</h4>
   <p>
     Chic IT is ready to support your escort agency and help you grow your online
     presence with <strong>custom IT solutions</strong> designed specifically for
-    the adult industry. Whether you’re just starting out or looking to take your
+    the adult industry. Whether you&apos;re just starting out or looking to take your
     existing website to the next level, our team of skilled professionals is
     here to assist you every step of the way.
   </p>
@@ -211,8 +211,8 @@ async function left() {
       Chic IT – Empowering Adult Services with Expert IT Solutions
     </strong>
     <br />
-    Your success is our priority, and we’re here to help you thrive in the
-    digital world. Let’s make your vision a reality!
+    Your success is our priority, and we&apos;re here to help you thrive in the
+    digital world. Let&apos;s make your vision a reality!
   </p>
 
 

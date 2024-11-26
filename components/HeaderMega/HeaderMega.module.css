@@ -3,7 +3,7 @@
     padding-left: var(--mantine-spacing-md);
     padding-right: var(--mantine-spacing-md);
     border-bottom: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
-    background-color: white;
+    background-color: #00056b;
     opacity: 90%;
   }
   
@@ -14,17 +14,26 @@
     padding-left: var(--mantine-spacing-md);
     padding-right: var(--mantine-spacing-md);
     text-decoration: none;
-    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    color:#8acaf4;
+  
     font-weight: 500;
     font-size: var(--mantine-font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
   
     @media (max-width: $mantine-breakpoint-sm) {
       height: 42px;
       width: 100%;
+      margin: 20px 0;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding: 0 40px;
     }
   
     @mixin hover {
-      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+      background-color: #228be6;
     }
   }
   
@@ -39,10 +48,36 @@
   }
   
   .dropdownFooter {
-    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+    background-color: #000453;
     margin: calc(var(--mantine-spacing-md) * -1);
     margin-top: var(--mantine-spacing-sm);
     padding: var(--mantine-spacing-md) calc(var(--mantine-spacing-md) * 2);
     padding-bottom: var(--mantine-spacing-xl);
-    border-top: 1px solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+    border-top: #01078c;
   }
+
+  .contact{display: flex;}
+  .ci { color:#37bdf9}
+  .ed {    color: silver;
+    font-size: 12px;
+    margin-left: 10px;}
+
+    .drawer {
+      background-color: #00056b;
+      border-color: #060d99;
+    }
+
+    .s{ color:#d7d7d7;}
+    .cb{color: #8dfffcdb;}
+    .div {
+      border-color:#76d4d775
+    }
+
+    .ti{
+      background: #208fe0;
+      border-color: #208fe0;
+    }
+
+    .ti svg {stroke:white}
+
+    .white{    --burger-color: white;}

@@ -26,7 +26,7 @@ async function subtitle() {
   "use server"
 
   return (
-  <p>At Chic IT, we&apos;’re passionate about helping businesses like yours succeed in the digital world.</p>
+  <span>At Chic IT, we&apos;re passionate about helping businesses like yours succeed in the digital world.</span>
   )
 }
 
@@ -67,7 +67,7 @@ async function left () {
     specialize in web design, desktop support, server management, digital
     marketing, and search engine optimization (SEO). We understand that every
     business is unique, which is why we offer tailored solutions that align with
-    your goals and objectives, ensuring your company stands out in today’s
+    your goals and objectives, ensuring your company stands out in today&apos;s
     competitive market.
   </p>
   <h3>Our Services</h3>
@@ -81,7 +81,7 @@ async function left () {
   </h4>
   <p>
     Your website is often the first point of contact between your business and
-    potential clients, so it’s important that it reflects your brand identity
+    potential clients, so it&apos;s important that it reflects your brand identity
     and delivers an exceptional user experience. Chic IT specializes in custom
     web design and development, creating visually appealing, responsive, and
     user-friendly websites that are both functional and aesthetically pleasing.
@@ -107,7 +107,7 @@ async function left () {
     securely.
   </p>
   <p>
-    Whether you’re dealing with software issues, hardware malfunctions, or need
+    Whether you&apos;re dealing with software issues, hardware malfunctions, or need
     server management, our team is here to help. We offer proactive solutions to
     prevent downtime, keep your data secure, and resolve technical problems
     quickly and effectively.
@@ -116,7 +116,7 @@ async function left () {
     3. <strong>Digital Marketing</strong>
   </h4>
   <p>
-    In today’s digital age, an effective online marketing strategy is essential
+    In today&apos;s digital age, an effective online marketing strategy is essential
     for business growth. Chic IT offers a full suite of digital marketing
     services to help your business reach its target audience and drive
     measurable results. Our digital marketing services include social media
@@ -125,7 +125,7 @@ async function left () {
     your business goals and deliver tangible results.
   </p>
   <p>
-    We focus on creating engaging content, building your brand’s presence on
+    We focus on creating engaging content, building your brand&apos;s presence on
     social media, and driving traffic to your website, all while optimizing your
     marketing budget for maximum ROI.
   </p>
@@ -133,9 +133,9 @@ async function left () {
     4. <strong>Search Engine Optimization (SEO)</strong>
   </h4>
   <p>
-    No matter how great your website is, if it’s not visible to potential
-    customers, you’re missing out on valuable opportunities. Our SEO services
-    are designed to improve your website’s search engine ranking, increase
+    No matter how great your website is, if it&apos;s not visible to potential
+    customers, you&apos;re missing out on valuable opportunities. Our SEO services
+    are designed to improve your website&apos;s search engine ranking, increase
     organic traffic, and enhance your online visibility. From on-page
     optimization to off-page strategies like link building, we employ proven
     techniques to ensure your website ranks higher in search engine results.
@@ -153,7 +153,7 @@ async function left () {
     Chic IT also specializes in adult web design, catering to the unique needs
     of businesses in the adult industry. We create visually stunning,
     user-friendly websites that prioritize security, privacy, and seamless
-    functionality. Whether you’re building an adult entertainment platform,
+    functionality. Whether you&apos;re building an adult entertainment platform,
     e-commerce site, or membership-based website, we ensure your site is both
     compliant with industry regulations and optimized for the best user
     experience.
@@ -168,7 +168,7 @@ async function left () {
     <li>
       <p>
         <strong>Female-Owned and Operated:</strong> As a woman-led company,
-        we’re committed to supporting and empowering women in the tech industry.
+        we&apos;&apos;re committed to supporting and empowering women in the tech industry.
         Our diverse team brings fresh perspectives and innovative ideas to the
         table, ensuring your business benefits from creative and cutting-edge
         solutions.
@@ -176,7 +176,7 @@ async function left () {
     </li>
     <li>
       <p>
-        <strong>Tailored Solutions:</strong> We don’t believe in a
+        <strong>Tailored Solutions:</strong> We don&apos;t believe in a
         one-size-fits-all approach. We take the time to understand your business
         needs and goals, offering customized solutions that are right for you.
       </p>
@@ -202,23 +202,23 @@ async function left () {
         <strong>Customer-Centric Approach:</strong> At Chic IT, our clients are
         our top priority. We strive to build long-lasting relationships and
         offer exceptional customer service that goes beyond just completing a
-        project. We’re here to support your business every step of the way.
+        project. We&apos;re here to support your business every step of the way.
       </p>
     </li>
   </ol>
-  <h3>Let’s Get Started</h3>
+  <h3>Let&apos;s Get Started</h3>
   <p>
-    At Chic IT, we’re passionate about helping businesses like yours succeed in
-    the digital world. Whether you’re looking to revamp your website, improve
-    your SEO, or need reliable IT support, we’ve got you covered. Reach out to
-    us today, and let’s discuss how we can help take your business to the next
+    At Chic IT, we&apos;re passionate about helping businesses like yours succeed in
+    the digital world. Whether you&apos;re looking to revamp your website, improve
+    your SEO, or need reliable IT support, we&apos;ve got you covered. Reach out to
+    us today, and let&apos;s discuss how we can help take your business to the next
     level.
   </p>
   <p>
-    Welcome to Chic IT—where technology and creativity meet to empower your
+    Welcome to Chic IT — where technology and creativity meet to empower your
     digital success!
   </p>
-</div>
+</div> 
 
 
     

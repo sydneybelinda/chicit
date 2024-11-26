@@ -27,7 +27,7 @@ async function subtitle() {
   "use server"
 
   return (
-    <p>creating innovative, high-quality websites that drive success, using modern technologies such as React, HTML, JavaScript, and PHP</p>
+    <span>creating innovative, high-quality websites that drive success, using modern technologies such as React, HTML, JavaScript, and PHP</span>
   )
 }
 

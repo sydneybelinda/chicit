@@ -30,7 +30,7 @@ async function subtitle() {
   "use server"
 
   return (
-  <p>Contact Us for a free quote today</p>
+  <span>Contact Us for a free quote today</span>
   )
 }
 

@@ -27,8 +27,8 @@ async function subtitle() {
   "use server"
 
   return (
-    <p>Empowering Your Business with Expert Server
-      Management Solutions</p>
+    <span>Empowering Your Business with Expert Server
+      Management Solutions</span>
   )
 }
 

@@ -35,6 +35,7 @@ import {
   import { TechLinks } from '../TechLinks';
   import Logo from '../Logo';
   import classes from './HeaderMega.module.css';
+  import { TfiEmail } from "react-icons/tfi";;
 
 
   
@@ -80,10 +81,10 @@ import {
     const theme = useMantineTheme();
   
     const links = ServiceLinks.map((item) => (
-        <Link className={classes.link} href={item.link}>
-      <UnstyledButton className={classes.subLink} key={item.label}>
+        <Link className={classes.link} href={item.link}  key={item.link}>
+      <UnstyledButton className={classes.subLink} >
         <Group wrap="nowrap" align="flex-start">
-          <ThemeIcon size={34} variant="default" radius="md">
+          <ThemeIcon size={34} variant="default" radius="md" className={classes.ti}>
             <item.icon size={22} color={theme.colors.blue[6]} />
           </ThemeIcon>
           <div>
@@ -124,15 +125,15 @@ import {
                   </a>
                 </HoverCard.Target>
   
-                <HoverCard.Dropdown style={{ overflow: 'hidden' }}>
+                <HoverCard.Dropdown style={{ overflow: 'hidden' }} className={classes.drawer}>
                   <Group justify="space-between" px="md">
-                    <Text fw={500}>Services</Text>
+                    <Text fw={500} className={classes.s}>Services</Text>
                     {/* <Anchor href="#" fz="xs">
                       View all
                     </Anchor> */}
                   </Group>
   
-                  <Divider my="sm" />
+                  <Divider my="sm" className={classes.div} />
   
                   <SimpleGrid cols={2} spacing={0}>
                     {links}
@@ -141,16 +142,21 @@ import {
                   <div className={classes.dropdownFooter}>
                     <Group justify="space-between">
                       <div>
-                        <Text fw={500} fz="sm">
+                        <Text fw={500} fz="sm" className={classes.cb}>
                           Get started
                         </Text>
                         <Text size="xs" c="dimmed">
                           Contact Us for a free quote
                         </Text>
                       </div>
-                      <Link href="/contact">
-                      <Button variant="default">Contact Us</Button>
-                      </Link>
+                      <Link href="/contact"> <Button
+            variant="gradient"
+            gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
+            size="md"
+            radius="md"
+          >
+           Contact Us
+          </Button></Link>
                     </Group>
                   </div>
                 </HoverCard.Dropdown>
@@ -162,11 +168,12 @@ import {
             </Group>
   
             <Group visibleFrom="sm">
-              <Button variant="default">Log in</Button>
-              <Button>Sign up</Button>
+<div className={classes.contact}>
+<TfiEmail className={classes.ci}/><div className={classes.ed}>chic.it.sydney@gmail.com</div>
+</div>
             </Group>
   
-            <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm" />
+            <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm"  className={classes.white}/>
           </Group>
         </header>
   
@@ -178,6 +185,7 @@ import {
           title="Chic IT"
           hiddenFrom="sm"
           zIndex={1000000}
+          className={classes.drawer}
         >
           <ScrollArea h="calc(100vh - 80px" mx="-md">
             <Divider my="sm" />
@@ -204,8 +212,8 @@ import {
             <Divider my="sm" />
   
             <Group justify="center" grow pb="xl" px="md">
-              <Button variant="default">Log in</Button>
-              <Button>Sign up</Button>
+              {/* <Button variant="default">Log in</Button>
+              <Button>Sign up</Button> */}
             </Group>
           </ScrollArea>
         </Drawer>
