@@ -175,30 +175,30 @@ import {
           onClose={closeDrawer}
           size="100%"
           padding="md"
-          title="Navigation"
+          title="Chic IT"
           hiddenFrom="sm"
           zIndex={1000000}
         >
           <ScrollArea h="calc(100vh - 80px" mx="-md">
             <Divider my="sm" />
   
-            <a href="#" className={classes.link}>
+            <Link href="#" className={classes.link}>
               Home
-            </a>
+            </Link>
             <UnstyledButton className={classes.link} onClick={toggleLinks}>
               <Center inline>
                 <Box component="span" mr={5}>
-                  Features
+                  Service
                 </Box>
                 <IconChevronDown size={16} color={theme.colors.blue[6]} />
               </Center>
             </UnstyledButton>
             <Collapse in={linksOpened}>{links}</Collapse>
-            <a href="#" className={classes.link}>
-              Learn
+            <a href="/about" className={classes.link}>
+              About
             </a>
-            <a href="#" className={classes.link}>
-              Academy
+            <a href="/contact" className={classes.link}>
+              Contact
             </a>
   
             <Divider my="sm" />
