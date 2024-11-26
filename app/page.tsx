@@ -23,7 +23,7 @@ export default function HomePage() {
 <HeaderMega />
 <Hero />
 
-
+      <Features />
       <Who />
       <Choose />
       <WorkTogether />
