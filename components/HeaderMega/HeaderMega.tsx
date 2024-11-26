@@ -81,7 +81,7 @@ import {
   
     const links = ServiceLinks.map((item) => (
         <Link className={classes.link} href={item.link}>
-      <UnstyledButton className={classes.subLink} key={item.title}>
+      <UnstyledButton className={classes.subLink} key={item.label}>
         <Group wrap="nowrap" align="flex-start">
           <ThemeIcon size={34} variant="default" radius="md">
             <item.icon size={22} color={theme.colors.blue[6]} />
