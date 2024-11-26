@@ -6,6 +6,12 @@ header {z-index: 2}
 .wrapper {
     padding-top: calc(var(--mantine-spacing-xl) * 2);
     padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+      padding-top: calc(var(--mantine-spacing-xl) * 1);
+      padding-bottom: calc(var(--mantine-spacing-xl) * 1);
+  
+    }
   }
   
   .title {
@@ -44,3 +50,9 @@ h1{
   font-size: 3em !important;
 }
 
+.markdown p{
+  color: rgb(121 132 142) !important;
+}
+h2 {
+  margin-top: 0;
+}
