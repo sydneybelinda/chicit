@@ -39,7 +39,7 @@ export function HeaderMenu() {
     
 
 
-if (scroll >= countScoll){
+if (scroll <= countScoll){
   
 
 

@@ -3,31 +3,37 @@
 import { IconCircleDotted, IconFileCode, IconFlame, IconReceiptOff } from '@tabler/icons-react';
 import { Button, Grid, SimpleGrid, Text, ThemeIcon, Title, Container } from '@mantine/core';
 import classes from './Features.module.css';
+import Link from 'next/link';
 
 const features = [
   {
+    href: '/service/website-development',
     icon: IconReceiptOff,
     title: 'Web Design',
     description: 'Beautiful and functional custom websites in React, Javascript, HTML or PHP',
   },
   {
+    href: '/service/desktop-support',
     icon: IconFileCode,
     title: 'Desktop/Laptop Support',
     description: 'Fast friendly, and professional repairs to any laptop or desktop',
   },
   {
+    href: '/service/server-management',
     icon: IconCircleDotted,
     title: 'Server Management',
     description:
       'Our Technicions have over 25 years experience in managing both Windows and Linux - whetther they be on premise or in the cloud'
   },
   {
+    href: '/service/digital-marketing-seo',
     icon: IconFlame,
     title: 'Digital Marketing / SEO',
     description:
       'We can help optimise your site for Search Engines, and help you market your site using other stragies',
   },
   {
+    href: '/service/adult-services',
     icon: IconFlame,
     title: 'Adult Web Design',
     description:
@@ -54,9 +60,11 @@ export function Features() {
         {feature.description}
       </Text>
       <div className={classes.buttonwrap}>
-      <Button variant="default" radius="xl" size="md" className={classes.control}>
+      <Link href={feature.href}>
+      <Button variant="default" radius="xl" size="md" className={classes.control} >
               Read More
             </Button>
+            </Link>
             </div>
     </div>
   ));
