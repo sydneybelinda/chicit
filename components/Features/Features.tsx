@@ -72,7 +72,7 @@ export function Features() {
   return (
     <div className={classes.wrapper}>
         <Container>
-      <Grid gutter={60}>
+      <Grid gutter={60} className={classes.grid}>
         <Grid.Col span={{ base: 12, md: 5 }}>
           <Title className={classes.title} order={2}>
            Fast, friendly and proffessional Service

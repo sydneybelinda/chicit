@@ -3,6 +3,8 @@
 
     padding-top: calc(var(--mantine-spacing-xl) * 2);
     padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+    max-width: 100%;
+    overflow-x: hidden;
 
     @media (max-width: $mantine-breakpoint-xs) {
       display: block;
@@ -33,3 +35,5 @@
     }
 
    }
+
+   .grid {width:100%}
