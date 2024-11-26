@@ -88,7 +88,7 @@ import {
           </ThemeIcon>
           <div>
             <Text size="sm" fw={500}>
-              {item.title}
+              {item.label}
             </Text>
             <Text size="xs" c="dimmed">
               {item.description}
