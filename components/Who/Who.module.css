@@ -8,9 +8,10 @@
     position: relative;
     padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-xl);
   
-    @media (max-width: $mantine-breakpoint-sm) {
-      padding-bottom: 80px;
-      padding-top: 80px;
+    @media (max-width: $mantine-breakpoint-xs) {
+
+      padding-top: calc(var(--mantine-spacing-xl) * 1);
+      padding-bottom: calc(var(--mantine-spacing-xl) * 1);
     }
   }
   

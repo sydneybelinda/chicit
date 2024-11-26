@@ -182,13 +182,13 @@ import {
           <ScrollArea h="calc(100vh - 80px" mx="-md">
             <Divider my="sm" />
   
-            <Link href="#" className={classes.link}>
+            <Link href="/" className={classes.link}>
               Home
             </Link>
             <UnstyledButton className={classes.link} onClick={toggleLinks}>
               <Center inline>
                 <Box component="span" mr={5}>
-                  Service
+                  Services
                 </Box>
                 <IconChevronDown size={16} color={theme.colors.blue[6]} />
               </Center>

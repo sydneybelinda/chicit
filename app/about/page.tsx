@@ -1,9 +1,7 @@
 import { HeaderMega } from '@/components/HeaderMega/HeaderMega';
 import { Footer } from '@/components/Footer/Footer';
-import { Grid, Title, Text, Button, SimpleGrid, Image } from '@mantine/core';
+import {  Title, Image } from '@mantine/core';
 import { Container } from '@mantine/core';
-import GridLayout from '@/components/GridLayout/GridLayout';
-import { SideBar } from '@/components/SideBar/SideBar';
 import { AbuutHero } from '@/components/AboutHero/AboutHero';
 import image from './bel.png';
 
@@ -11,7 +9,7 @@ import classes from "./about.module.css"
 
 
 export const metadata = {
-  title: 'Chic IT - Fun, friendly and Professional IT Services by women',
+  title: 'Chic IT - About us - Fun, friendly and Professional IT Services by women',
   description: 'We aer a female owned and operated IT Servcies company.  Our technicians have over 25 years industry experience',
 };
 

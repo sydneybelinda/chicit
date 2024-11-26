@@ -72,7 +72,7 @@ export function Features() {
   return (
     <div className={classes.wrapper}>
         <Container>
-      <Grid gutter={80}>
+      <Grid gutter={60}>
         <Grid.Col span={{ base: 12, md: 5 }}>
           <Title className={classes.title} order={2}>
            Fast, friendly and proffessional Service
@@ -81,18 +81,21 @@ export function Features() {
           Chic IT offers a wide range of services to cater to the needs of businesses, entrepreneurs, and individuals. Here’s a look at what we can do for you:
           </Text>
 
-          <Button
+          <div className={classes.bw}>
+
+         <Link href="/about"> <Button
             variant="gradient"
             gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
             size="lg"
             radius="md"
             mt="xl"
           >
-            Get started
-          </Button>
+           Read More
+          </Button></Link>
+          </div>
         </Grid.Col>
         <Grid.Col span={{ base: 12, md: 7 }}>
-          <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
+          <SimpleGrid cols={{ base: 2, md: 2 }} spacing={30}>
             {items}
           </SimpleGrid>
         </Grid.Col>

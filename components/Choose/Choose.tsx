@@ -72,8 +72,8 @@ export function Choose() {
       </Container>
 
       <SimpleGrid
-        mt={60}
-        cols={{ base: 1, sm: 2, md: 3 }}
+        mt={40}
+        cols={{ base: 2, sm: 2, md: 3 }}
         spacing={{ base: 'xl', md: 50 }}
         verticalSpacing={{ base: 'xl', md: 50 }}
       >

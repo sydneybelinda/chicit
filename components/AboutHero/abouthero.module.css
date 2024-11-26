@@ -3,9 +3,10 @@
     padding-top: 60px;
     padding-bottom: 50px;
   
-    @media (max-width: $mantine-breakpoint-sm) {
-      padding-top: 80px;
-      padding-bottom: 60px;
+    @media (max-width: $mantine-breakpoint-xs) {
+
+      padding-top: calc(var(--mantine-spacing-xl) * 1);
+      padding-bottom: calc(var(--mantine-spacing-xl) * 1);
     }
   }
   
