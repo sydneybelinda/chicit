@@ -21,9 +21,9 @@ const data = [
   {
     title: 'Pages',
     links: [
-      { label: 'Home', link: '/' },
-      { label: 'About Us', link: '/about' },
-      { label: 'Contact Us', link: '/contact' },
+      { title: 'Home', link: '/' },
+      { title: 'About Us', link: '/about' },
+      { title: 'Contact Us', link: '/contact' },
     ],
   },
 ];
@@ -38,7 +38,7 @@ export function Footer() {
         href={link.link}
         
       >
-        {link.label}
+        {link.title}
       </Text>
     ));
 

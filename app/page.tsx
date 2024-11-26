@@ -1,12 +1,13 @@
 import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 import { Welcome } from '../components/Welcome/Welcome';
-import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
+// import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
 import { Footer } from '@/components/Footer/Footer';
 import { Hero } from '@/components/Hero/Hero';
 import { Features } from '@/components/Features/Features';
 import { Who } from '@/components/Who/Who';
 import { Choose } from '@/components/Choose/Choose';
 import { WorkTogether } from '@/components/WorkTogether/WorkTogether';
+import { HeaderMega } from '@/components/HeaderMega/HeaderMega';
 
 
 
@@ -19,7 +20,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
-<HeaderMenu />
+<HeaderMega />
 <Hero />
 
       <Features />

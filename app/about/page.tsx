@@ -1,5 +1,4 @@
-
-import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
+import { HeaderMega } from '@/components/HeaderMega/HeaderMega';
 import { Footer } from '@/components/Footer/Footer';
 import { Grid, Title, Text, Button, SimpleGrid, Image } from '@mantine/core';
 import { Container } from '@mantine/core';
@@ -238,7 +237,7 @@ export default function AboutPage() {
 
   return (
     <>
-      <HeaderMenu />
+      <HeaderMega />
       <AbuutHero 
       title={titleView}
       subtitle={subtitleView}
