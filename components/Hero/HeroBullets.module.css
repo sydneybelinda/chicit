@@ -32,6 +32,7 @@
     @media (max-width: $mantine-breakpoint-md) {
       max-width: 100%;
       margin-right: 0;
+      overflow-x: hidden;
     }
   }
   
@@ -58,6 +59,7 @@
   .image {
     width: 376px;
     height: 356px;
+    max-width: 100%;
   
     /* @media (max-width: $mantine-breakpoint-md) {
       margin-top: 60px;
