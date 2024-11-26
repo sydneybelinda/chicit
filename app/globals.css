@@ -40,3 +40,7 @@ header {z-index: 2}
     margin-bottom: 50px;
 }
 
+h1{
+  font-size: 3em !important;
+}
+

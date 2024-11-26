@@ -78,6 +78,10 @@ export function Features() {
            Fast, friendly and proffessional Service
           </Title>
           <Text c="dimmed">
+          At Chic IT, we believe in empowering businesses to thrive in the modern digital world through technology, creativity, and innovation. Our team of highly skilled and passionate professionals works closely with you to ensure your business reaches its full potential.
+      </Text>
+      <br/>
+      <Text c="dimmed">
           Chic IT offers a wide range of services to cater to the needs of businesses, entrepreneurs, and individuals. Here’s a look at what we can do for you:
           </Text>
 

@@ -103,7 +103,7 @@ import {
       <Box>
         <header className={classes.header + " " + isVisible} >
           <Group justify="space-between" h="100%">
-            <Logo />
+          <Link href="/"> <Logo /></Link>
   
             <Group h="100%" gap={0} visibleFrom="sm">
               <Link href="/" className={classes.link}>

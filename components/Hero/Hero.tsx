@@ -20,7 +20,7 @@ export function Hero() {
           </Title>
           <Text  mt="md">
           Welcome to <b>Chic IT</b>, a dynamic and female-owned IT professional services company committed to delivering high-quality solutions across a wide range of digital services.</Text>
-           <Text mt="md"> At Chic IT, we believe in empowering businesses to thrive in the modern digital world through technology, creativity, and innovation. Our team of highly skilled and passionate professionals works closely with you to ensure your business reaches its full potential.
+           <Text mt="md"> 
           </Text>
 
       
