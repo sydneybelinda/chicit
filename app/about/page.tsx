@@ -5,6 +5,7 @@ import { Container } from '@mantine/core';
 import { AbuutHero } from '@/components/AboutHero/AboutHero';
 import image from './bel.png';
 
+
 import classes from "./about.module.css"
 
 
@@ -33,7 +34,9 @@ async function subtitle() {
 
 async function left () {
  "use server"
-  return ( <div className={classes.page}>
+  return ( 
+  <Container>
+  <div className={classes.page}>
 
       <div className="markdown prose w-full break-words dark:prose-invert light">
       <div className={classes.inner}>
@@ -223,7 +226,9 @@ async function left () {
 
     
 
-  </div>)
+  </div>
+  </Container>
+  )
 
 }
 
