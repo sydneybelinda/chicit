@@ -83,7 +83,7 @@ export function GetInTouch() {
                 placeholder="Your name"
                 name='name'
                 id='name'
-                disabled={useFormStatus().pendibg}
+                disabled={useFormStatus().pending}
 
               />
               <TextInput
@@ -91,7 +91,7 @@ export function GetInTouch() {
                 placeholder="hello@gmail.com"
                 name='email'
                 id='email'
-                disabled={useFormStatus().pendinhg}
+                disabled={useFormStatus().pending}
 
 
                 required />
