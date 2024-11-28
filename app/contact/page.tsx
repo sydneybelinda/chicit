@@ -8,6 +8,7 @@ import { SideBar } from '@/components/SideBar/SideBar';
 import { AbuutHero } from '@/components/AboutHero/AboutHero';
 import image from './bel.png';
 import { ContactUs } from '@/components/ContactUs/ContactUs';
+import { GetInTouch } from '@/components/GetInTouch/GetInTouch';
 
 import classes from "./contact.module.css"
 
@@ -38,7 +39,7 @@ async function subtitle() {
 async function left () {
  "use server"
   return (
-    <ContactUs />
+ <GetInTouch />
   )
 
 }
