@@ -4,6 +4,8 @@ import {  Title, Image } from '@mantine/core';
 import { Container } from '@mantine/core';
 import { AbuutHero } from '@/components/AboutHero/AboutHero';
 import image from './bel.png';
+import { HeroImageRight } from '@/components/HeroImageRight/HeroImageRight';
+import Background from "./blue-bg-wiith-girl-right.jpg"
 
 
 import classes from "./about.module.css"
@@ -14,14 +16,22 @@ export const metadata = {
   description: 'We aer a female owned and operated IT Servcies company.  Our technicians have over 25 years industry experience',
 };
 
-async function title() { 
-  "use server"
+// async function title() { 
+//   "use server"
 
+//   return (
+//   <Title className={classes.title}>About <span className='highlight'> Chic IT</span>: Empowering Your Digital Success</Title>
+//   )
+
+// }
+
+async function title() {
   return (
-  <Title className={classes.title}>About <span className='highlight'> Chic IT</span>: Empowering Your Digital Success</Title>
-  )
-
+ <div> About <span className='highlight'> Chic IT</span>: Empowering Your Digital Success
+</div>  )
 }
+
+
 
 async function subtitle() { 
   "use server"
@@ -241,10 +251,18 @@ export default function AboutPage() {
   return (
     <>
       <HeaderMega />
-      <AbuutHero 
+      {/* <AbuutHero 
       title={titleView}
       subtitle={subtitleView}
-      />
+      /> */}
+
+<HeroImageRight
+  image={Background}
+  title={titleView}
+  subtitle={subtitleView}
+/>
+
+
       <div className={classes.pageWrap}>
       <Container className='wrapper'>
 

@@ -9,11 +9,13 @@ interface Props {
 
 export function AbuutHero(props:Props) {
   return (
-    <Container className={classes.wrapper} size={1400}>
-      <Dots className={classes.dots} style={{ left: 0, top: 0 }} />
+    <div  className={classes.wrapper}>
+            <Dots className={classes.dots} style={{ left: 0, top: 0 }} />
       <Dots className={classes.dots} style={{ left: 60, top: 0 }} />
       <Dots className={classes.dots} style={{ left: 0, top: 140 }} />
       <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
+
+    <Container >
 
       <div className={classes.inner}>
         {props.title}
@@ -34,5 +36,7 @@ export function AbuutHero(props:Props) {
         </div> */}
       </div>
     </Container>
+
+    </div>
   );
 }

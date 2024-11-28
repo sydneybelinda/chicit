@@ -4,7 +4,7 @@
     background-repeat: "no-repeat";
 }
 .highlight {
-    color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+  color: #e81de0;
   }
 .subTitle {
     font-size: 30px;
