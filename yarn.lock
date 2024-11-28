@@ -2354,6 +2354,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/form@npm:^7.14.3":
+  version: 7.14.3
+  resolution: "@mantine/form@npm:7.14.3"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.3"
+    klona: "npm:^2.0.6"
+  peerDependencies:
+    react: ^18.x || ^19.x
+  checksum: 10c0/473e29d79508a874647cfbbcc5f16bab3f7d57fdf36edfb7481cb3f32c20b13a3f5851a8a475a876587f62daba2b2db21b63259a8d732b2f57d26da2b61cca7d
+  languageName: node
+  linkType: hard
+
 "@mantine/hooks@npm:7.14.1":
   version: 7.14.1
   resolution: "@mantine/hooks@npm:7.14.1"
@@ -3192,6 +3204,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10c0/e1fbc69ed34515da8a8a5cf4427e473f9c378f4cfe291f20635dda10a51a9854c687f5ab91eafdcbec2a0d52a1590e53ec6d49e53c1bc0e35ddde4f159246fcd
+  languageName: node
+  linkType: hard
+
+"@types/nodemailer@npm:^6":
+  version: 6.4.17
+  resolution: "@types/nodemailer@npm:6.4.17"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/689abb3005cf36cf89c2abe56f0aa4469a37e0814633a73fbeb35732e856f4b0d7ab32b6d91585038b6941f5b70db58ec2bd147ebe9f73e528eb6c99604f4e82
   languageName: node
   linkType: hard
 
@@ -5165,6 +5186,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deep-equal@npm:^1.0.1":
+  version: 1.1.2
+  resolution: "deep-equal@npm:1.1.2"
+  dependencies:
+    is-arguments: "npm:^1.1.1"
+    is-date-object: "npm:^1.0.5"
+    is-regex: "npm:^1.1.4"
+    object-is: "npm:^1.1.5"
+    object-keys: "npm:^1.1.1"
+    regexp.prototype.flags: "npm:^1.5.1"
+  checksum: 10c0/cd85d822d18e9b3e1532d0f6ba412d229aa9d22881d70da161674428ae96e47925191296f7cda29306bac252889007da40ed8449363bd1c96c708acb82068a00
+  languageName: node
+  linkType: hard
+
 "deep-is@npm:^0.1.3":
   version: 0.1.4
   resolution: "deep-is@npm:0.1.4"
@@ -6294,6 +6329,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"flat@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "flat@npm:2.0.2"
+  dependencies:
+    is-buffer: "npm:~1.1.2"
+  checksum: 10c0/ecd3eb7c494c541a2015e80eb82d05a0d2fc7d81dcb470d5b0b0922583c37187a3c2506c4a804660a73daa54a438ed693cc91ba03017f05cf7632a1aa8e7f49a
+  languageName: node
+  linkType: hard
+
 "flatted@npm:^3.2.9, flatted@npm:^3.3.1":
   version: 3.3.2
   resolution: "flatted@npm:3.3.2"
@@ -7011,6 +7055,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"install@npm:^0.10.0":
+  version: 0.10.4
+  resolution: "install@npm:0.10.4"
+  checksum: 10c0/1cd9f907914a10a62344cb3904c4b0712dc6ebc61838d397ca2624e92f1f14e022803f91d9f14732906627a717908eb226690a84cd57db2d8d7ab3052c3fc436
+  languageName: node
+  linkType: hard
+
 "internal-slot@npm:^1.0.7":
   version: 1.0.7
   resolution: "internal-slot@npm:1.0.7"
@@ -7041,7 +7092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-arguments@npm:^1.0.4":
+"is-arguments@npm:^1.0.4, is-arguments@npm:^1.1.1":
   version: 1.1.1
   resolution: "is-arguments@npm:1.1.1"
   dependencies:
@@ -7109,6 +7160,13 @@ __metadata:
     call-bind: "npm:^1.0.2"
     has-tostringtag: "npm:^1.0.0"
   checksum: 10c0/6090587f8a8a8534c0f816da868bc94f32810f08807aa72fa7e79f7e11c466d281486ffe7a788178809c2aa71fe3e700b167fe80dd96dad68026bfff8ebf39f7
+  languageName: node
+  linkType: hard
+
+"is-buffer@npm:~1.1.2":
+  version: 1.1.6
+  resolution: "is-buffer@npm:1.1.6"
+  checksum: 10c0/ae18aa0b6e113d6c490ad1db5e8df9bdb57758382b313f5a22c9c61084875c6396d50bbf49315f5b1926d142d74dfb8d31b40d993a383e0a158b15fea7a82234
   languageName: node
   linkType: hard
 
@@ -7972,6 +8030,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-function-reflector@git+https://github.com/leonardiwagner/js-function-reflector.git":
+  version: 1.3.0
+  resolution: "js-function-reflector@https://github.com/leonardiwagner/js-function-reflector.git#commit=f3a1295909cf870bbb7bb136ca53796fc3e87c17"
+  checksum: 10c0/fcd2e41744cfd349fe8d9dcd9a52906b33f5bcdcfe1f41dafdb27d9638ab2122ee91f76ff8ac731e3ff2561c14dddd77367159db5d193e1bfdc63957cdceefae
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -8153,6 +8218,13 @@ __metadata:
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
   checksum: 10c0/cd3a0b8878e7d6d3799e54340efe3591ca787d9f95f109f28129bdd2915e37807bf8918bb295ab86afb8c82196beec5a1adcaf29042ce3f2bd932b038fe3aa4b
+  languageName: node
+  linkType: hard
+
+"klona@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "klona@npm:2.0.6"
+  checksum: 10c0/94eed2c6c2ce99f409df9186a96340558897b3e62a85afdc1ee39103954d2ebe1c1c4e9fe2b0952771771fa96d70055ede8b27962a7021406374fdb695fd4d01
   languageName: node
   linkType: hard
 
@@ -8420,6 +8492,7 @@ __metadata:
     "@eslint/js": "npm:^9.15.0"
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
     "@mantine/core": "npm:7.14.1"
+    "@mantine/form": "npm:^7.14.3"
     "@mantine/hooks": "npm:7.14.1"
     "@mantinex/dev-icons": "npm:^1.0.2"
     "@mantinex/mantine-logo": "npm:^1.0.1"
@@ -8434,6 +8507,7 @@ __metadata:
     "@types/eslint-plugin-jsx-a11y": "npm:^6"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:^20.14.8"
+    "@types/nodemailer": "npm:^6"
     "@types/react": "npm:18.3.3"
     babel-loader: "npm:^9.1.3"
     eslint: "npm:^9.15.0"
@@ -8444,12 +8518,14 @@ __metadata:
     jest-environment-jsdom: "npm:^29.7.0"
     next: "npm:^15.0.3"
     nextjs: "npm:^0.0.3"
+    nodemailer: "npm:^6.9.16"
     postcss: "npm:^8.4.38"
     postcss-preset-mantine: "npm:1.17.0"
     postcss-simple-vars: "npm:^7.0.1"
     prettier: "npm:^3.3.2"
     react: "npm:18.3.1"
-    react-dom: "npm:18.3.1"
+    react-dom: "npm:^18.3.1"
+    react-hook-form: "npm:^7.53.2"
     react-icons: "npm:^5.3.0"
     storybook: "npm:^8.1.10"
     storybook-dark-mode: "npm:^4.0.2"
@@ -8458,6 +8534,8 @@ __metadata:
     ts-jest: "npm:^29.1.5"
     typescript: "npm:5.5.2"
     typescript-eslint: "npm:^8.14.0"
+    z: "npm:^1.0.9"
+    zod: "npm:^3.23.8"
   languageName: unknown
   linkType: soft
 
@@ -8927,6 +9005,13 @@ __metadata:
   version: 2.0.18
   resolution: "node-releases@npm:2.0.18"
   checksum: 10c0/786ac9db9d7226339e1dc84bbb42007cb054a346bd9257e6aa154d294f01bc6a6cddb1348fa099f079be6580acbb470e3c048effd5f719325abd0179e566fd27
+  languageName: node
+  linkType: hard
+
+"nodemailer@npm:^6.9.16":
+  version: 6.9.16
+  resolution: "nodemailer@npm:6.9.16"
+  checksum: 10c0/9fd73ab4ab5b81544c3c9820afbe386369aba442f997b2f58d171222a898a7aed580fc100bfe6eebc194f18ba6e169d67ee40ca64d32d69022d89e575cef97a4
   languageName: node
   linkType: hard
 
@@ -9836,7 +9921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.3.1":
+"react-dom@npm:^18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -9845,6 +9930,15 @@ __metadata:
   peerDependencies:
     react: ^18.3.1
   checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:^7.53.2":
+  version: 7.53.2
+  resolution: "react-hook-form@npm:7.53.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18 || ^19
+  checksum: 10c0/18336d8e8798a70dcd0af703a0becca2d5dbf82a7b7a3ca334ae0e1f26410490bc3ef2ea51adcf790bb1e7006ed7a763fd00d664e398f71225b23529a7ccf0bf
   languageName: node
   linkType: hard
 
@@ -10094,7 +10188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regexp.prototype.flags@npm:^1.5.2, regexp.prototype.flags@npm:^1.5.3":
+"regexp.prototype.flags@npm:^1.5.1, regexp.prototype.flags@npm:^1.5.2, regexp.prototype.flags@npm:^1.5.3":
   version: 1.5.3
   resolution: "regexp.prototype.flags@npm:1.5.3"
   dependencies:
@@ -12264,5 +12358,24 @@ __metadata:
   version: 1.1.1
   resolution: "yocto-queue@npm:1.1.1"
   checksum: 10c0/cb287fe5e6acfa82690acb43c283de34e945c571a78a939774f6eaba7c285bacdf6c90fbc16ce530060863984c906d2b4c6ceb069c94d1e0a06d5f2b458e2a92
+  languageName: node
+  linkType: hard
+
+"z@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "z@npm:1.0.9"
+  dependencies:
+    deep-equal: "npm:^1.0.1"
+    flat: "npm:^2.0.1"
+    install: "npm:^0.10.0"
+    js-function-reflector: "git+https://github.com/leonardiwagner/js-function-reflector.git"
+  checksum: 10c0/7fca5761e29555ec0671cd4618d0d7ef949f6ec1aabac5782bd4e3c6f5179483843ea1af6d9d019df1b25d56a7976ab394a8ad762ccc090fe169ad6e106009e6
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.23.8":
+  version: 3.23.8
+  resolution: "zod@npm:3.23.8"
+  checksum: 10c0/8f14c87d6b1b53c944c25ce7a28616896319d95bc46a9660fe441adc0ed0a81253b02b5abdaeffedbeb23bdd25a0bf1c29d2c12dd919aef6447652dd295e3e69
   languageName: node
   linkType: hard

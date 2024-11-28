@@ -79,3 +79,17 @@
     flex: 1;
   }
 }
+
+.success{
+  color: green
+}
+
+.failed {
+  color:red
+}
+
+.submitting{
+
+  font-style: italic;
+  color: blue;
+}
