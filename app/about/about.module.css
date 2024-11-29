@@ -37,16 +37,21 @@
 
     .image {
     width: 376px;
-    height: 356px;
+    height: auto;
   
     @media (max-width: $mantine-breakpoint-md) {
-      display: none;
+      display: block;
+      width: 100%;
+        height: auto;
     }
   }
   
   .inner {
     display: flex;
     justify-content: space-between;
+    @media (max-width: $mantine-breakpoint-md) {
+      display: block;
+    }
 
   }
 

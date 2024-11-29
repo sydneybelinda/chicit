@@ -7,7 +7,7 @@ interface Props{
 export default function BackgroundImage(props:Props) {
   return (
     <Image
-      alt="Mountains"
+      alt="Chic IT"
       src={props.image}
       placeholder="blur"
       quality={100}
@@ -16,6 +16,7 @@ export default function BackgroundImage(props:Props) {
       style={{
         objectFit: 'cover',
       }}
+      className='bg-image'
     />
   )
 }

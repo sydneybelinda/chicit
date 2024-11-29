@@ -94,3 +94,18 @@ h2 {
   font-weight: 300;
   color: #ffb5ee;
 }
+
+
+@media (max-width: $mantine-breakpoint-sm) {
+  .bg-image {
+        inset: auto !important;
+        width: auto !important;
+        right: 0 !important;
+        top: 0 !important;
+  }
+}
+
+
+.mantine-Textarea-input {
+  height: 255px !important
+}

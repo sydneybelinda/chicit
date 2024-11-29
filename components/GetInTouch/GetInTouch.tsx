@@ -74,7 +74,7 @@ export function GetInTouch() {
 
         <form className={classes.form} action={formAction}>
           <Text fz="lg" fw={700} className={classes.title}>
-            Get in touch
+           For a FREE Quote, fill out the form below with your enquiry and we will get back to you.
           </Text>
 
           <div className={classes.fields}>
@@ -84,7 +84,7 @@ export function GetInTouch() {
                 name='name'
                 id='name'
                 disabled={useFormStatus().pending}
-
+                required
               />
               <TextInput
                 label="Your email"
@@ -108,12 +108,13 @@ export function GetInTouch() {
 
             <Textarea
               mt="md"
-              label="Your message"
+              label="Your query"
               placeholder="Please include all relevant information"
               minRows={10}
               name="msg"
               id="msg"
               disabled={useFormStatus().pending}
+              required
             />
 
             <Group justify="flex-end" mt="md">
